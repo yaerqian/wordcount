@@ -6,7 +6,7 @@
 <body>
 	<h1>统计结果</h1><br>
 	<h2>用户文本为{{ text }}</h2>
-	<h2>总字数为{{ count }}字</h2>
+	<h2>文本总字数为{{ count }}字</h2>
 	<p>{{ wordict }}</p>
 	{% for word,count in sorted %}
 	{{ word }} - {{ count }}<br>
